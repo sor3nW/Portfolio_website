@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-color: rgb(217, 104, 70);
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(217, 104, 70);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.one {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    grid-column: 1;
+}
+.two {
+    display: flex;
+    justify-content: left;
+    grid-column: 2;
+}
