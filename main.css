@@ -26,10 +26,15 @@ body {
 }
 .navbar-link {
     text-decoration: none;
+    color: black;
 }
 .navbar-button {
     text-decoration: none;
     border-radius: 25px;
     border: 5px;
     padding: 10px;
+}
+.contact-section {
+    
+
 }
