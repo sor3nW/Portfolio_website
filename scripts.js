@@ -1,11 +1,11 @@
 var i = 0;
-var txt = " I am a Computer Science major at the University of Texas at San Antonio interested in web development, data science, and computational mathematics";
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var txt = " I am a Computer Science major at the University of Texas at San Antonio interested in Web development, Data Science, and Computational Mathematics";
+var speed = 20; /* The speed/duration of the effect in milliseconds */
 
-function typeWriter() {
+function typeAnimation() {
   if (i < txt.length) {
-    document.getElementById("").innerHTML += txt.charAt(i);
+    document.getElementById("intro-paragraph").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
+    setTimeout(typeAnimation, speed);
   }
 }

@@ -6,33 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body onload="typeAnimation()" style="scroll-behavior: smooth;">
     <!-- navbar -->
-    <div class="navbar">
+    <div class="navbar" >
         <div class="one">
             <img src="" alt="logo">
         </div>
 
         <div class="two">
-            <a href="" class="navbar-link">About </a>
-            <a href="" class="navbar-link">Projects </a>
-            <a href="" class="navbar-link">Contact </a>
-            <a href="static/files/FebruaryResume.pdf" > <button class="navbar-button">resume</button></button></a>
+            <a href="#intro-section" class="navbar-link">About </a>
+            <a href="#projects-section" class="navbar-link">Projects </a>
+            <a href="#" class="navbar-link">Contact </a>
+            <a href="static/files/FebruaryResume.pdf" > <button class="navbar-button">Resume</button></button></a>
         </div>
     </div>
-    <div class="contact-section">
-        <div>
-            <h1 class="intro-p">
-                Hello, my name is Soren
-            </h1>
-            <h2 id="intro-paragraph" class="intro-p">
-                hello agaain iss mme mario
-            </h2>
-        </div>
+    <!-- introduction -->
+    <div class="introduction" id="intro-section">
         
 
+        <div class="intro-p">
+            <h1 >
+                Hello, my name is Soren
+            </h1>
+            <h2 id="intro-paragraph" >
+                
+            </h2>
+        </div>
+    
+        
+    </div>
+
+    <div style="height: 200vh;" id="projects-section">
+        hello
     </div>
 </body>
 </html>
