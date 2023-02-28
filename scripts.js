@@ -4,7 +4,7 @@ var speed = 30; /* The speed/duration of the effect in milliseconds */
 
 function typeAnimation() {
   if (i < txt.length) {
-    document.getElementById("intro-paragraph").innerHTML += txt.charAt(i);
+    document.getElementById("intro-name-text").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeAnimation, speed);
   }
