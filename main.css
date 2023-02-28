@@ -126,7 +126,7 @@ body {
 }
 .projects{
     display: grid;
-    grid-template-rows: repeat(2, 400px);
+    grid-template-rows: repeat(3, 400px);
     grid-template-columns: repeat(2, 1fr);
     padding: 100px;
     gap: 25px;
@@ -148,7 +148,7 @@ body {
 }
 .projects.active{
     display: grid;
-    grid-template-rows: repeat(2, 400px);
+    grid-template-rows: repeat(3, 400px);
     grid-template-columns: repeat(2, 1fr);
     padding: 100px;
     gap: 25px;
@@ -188,11 +188,14 @@ body {
 .project-description{
     grid-column-start: 2;
     grid-column-end: 3;
-    color: white;
+    color: black;
     background-color: white;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-description :hover{
@@ -204,12 +207,7 @@ body {
     border-bottom-right-radius: 25px;
 }
 
-.contacts-section-container{
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .contacts-header{
     display: flex;
     justify-content: center;
@@ -218,10 +216,13 @@ body {
     font-size: 25px;
     
 }
-.contacts-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 
+.contacts-section-container{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.social-logo{
+    
 }
