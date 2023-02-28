@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     scroll-behavior: smooth;
-    background-color: rgb(217, 104, 70);
+    background-color: rgb(20,20,20);
     font-family: 'Lato', sans-serif;
     
     
@@ -9,7 +9,7 @@ body {
 .navbar {
     height: 80px;
     width: 100%;
-    background-color: rgb(217, 104, 70);
+    background-color: rgb(20,20,20);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-bottom: 5px solid rgb(5, 60, 3);
@@ -30,7 +30,7 @@ body {
 }
 .navbar-link {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 25px;
 }
 .navbar-button {
@@ -87,20 +87,28 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding: 100px;
 }
-.project1{
-    grid-row-start: 1;
-    grid-row-end: 2;
+.project1, .project2, .project3, .project4{
+    grid-row
     grid-column-start: 1;
-    grid-column-end: 2;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 5px rgb(5, 60, 3);
+    grid-column-end: 3;
+    background-color: rgb(5, 60, 3);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 5px solid black;
     border-radius: 25px;
     
 }
 .project-picture{
-    
-    
+    grid-column-start: 1;
+    grid-column-end: 2;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.project-description{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+    background-color: white;
 }
