@@ -130,6 +130,8 @@ body {
     border-radius: 25px;
     
 }
+
+
 .project-picture{
     grid-column-start: 1;
     grid-column-end: 2;  
@@ -152,9 +154,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+.contacts-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .contacts-section{
     display: flex;
     justify-content: center;
     align-items: center;
     
+
 }
