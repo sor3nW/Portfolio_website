@@ -223,6 +223,28 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.social-logo{
-    
+.social-logo1{
+    grid-column-start:1;
+    grid-column-end:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-logo2{
+    grid-column-start:2;
+    grid-column-end:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-logo3{
+    grid-column-start:3;
+    grid-column-end:4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.holder{
+    height: 200px;
+    width: 200px;
 }
