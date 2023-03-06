@@ -58,14 +58,16 @@ body {
 .intro-holder {
     grid-column-start: 1;
     grid-column-end: 4;
-    height: 60vh;
+    height: 35vw;
+    max-height: 60vh;
     background-color: rgb(5, 60, 40);
     border-radius: 25px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     border: solid 5px black;
     color: white;
-    
+    min-width: 200px;
+    padding: 25px;
 
 }
 .intro-name {
@@ -73,6 +75,7 @@ body {
     align-items: end;
     justify-content: center;
     font-size: 1.75vw;
+    padding-left: 20px;
 }
 @keyframes cursor-blink {
     0% {
@@ -96,17 +99,17 @@ body {
 .intro-paragraph{
     display: flex;
     justify-content: center;
-    padding:50px;
-    padding-top:0px;
-    font-size: 2vw;
+    font-size: 1.2vw;
+    word-wrap: break-word;
     
 }
 
 .profile-picture-holder {
     grid-column-start: 4;
     grid-column-end: 6;
-    height: 60vh;
-    width: 30vw;
+    height: 64vh;
+    width: 40vw;
+    min-width: 200px;
     background: white;
     margin-left: 100px;
     padding: 10px;
@@ -118,7 +121,6 @@ body {
 
 .profile-picture{
     width: 20vw;
-    aspect-ratio: auto;
 }
 
 .project-top-container{
