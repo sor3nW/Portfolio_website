@@ -2,6 +2,7 @@ var i = 0;
 var txt = "Hello, my name is Soren" 
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
+
 function typeAnimation() {
   if (i < txt.length) {
     document.getElementById("intro-name-text").innerHTML += txt.charAt(i);
@@ -26,3 +27,14 @@ function reveal() {
 }
 window.addEventListener("scroll", reveal);
 reveal();
+
+
+function smallScreen() {
+  var windowWidth = window.innerWidth;
+  if (windowWidth < 2000){
+    document.querySelectorAll(".projects").classList.add("flex")
+  }
+
+}
+window.addEventListener("scroll", smallScreen);
+smallScreen();
